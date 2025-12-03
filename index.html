@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Redirecting...</title>
+
+<!-- Auto redirect after 3 seconds -->
+<meta http-equiv="refresh" content="3; url=https://h7.cl/1ksEq+">
+
+<style>
+    body {
+        font-family: Georgia, serif;
+        font-size: 22px;
+        padding: 20px;
+        color: #222;
+        line-height: 1.5;
+    }
+</style>
+
+<script>
+// JavaScript countdown + redirect
+let seconds = 3;
+
+function updateCountdown() {
+    document.getElementById("counter").textContent = seconds;
+    seconds--;
+
+    if (seconds < 0) {
+        window.location.href = "https://h7.cl/1ktud";
+    } else {
+        setTimeout(updateCountdown, 1000);
+    }
+}
+
+window.onload = updateCountdown;
+</script>
+
+</head>
+<body>
+    Redirecting you to — <b>EZ Vision Pro </b>
+    <a href="https://h7.cl/1ktud">https://h7.cl/1ktud</a>
+    <br><br>
+
+    Auto-redirecting in <b><span id="counter">3</span></b> seconds…
+    <br><br>
+
+    If the page does not redirect,
+    <a href="https://h7.cl/1ktud"><b>click here manually</b></a>.
+</body>
+</html>
